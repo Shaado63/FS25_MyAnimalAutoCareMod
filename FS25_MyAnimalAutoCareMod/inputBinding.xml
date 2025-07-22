@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inputBindings>
+    <action name="OPEN_AUTOCARE_MENU" category="PLAYER" displayName="Ouvrir menu AutoCare" input="KEY_h" />
+    <action name="TOGGLE_AUTOCARE" category="PLAYER" displayName="Activer/Désactiver AutoCare" input="KEY_j" />
+</inputBindings>

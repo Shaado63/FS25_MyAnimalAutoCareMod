@@ -1,0 +1,21 @@
+<modDesc descVersion="97">
+    <title>Animal Auto Care</title>
+    <description>Mod qui automatise la nourriture, l'eau et la paille des animaux.</description>
+    <author>Shaadö</author>
+    <version>1.0.0.0</version>
+    <iconFilename>modIcon.dds</iconFilename>
+
+    <!-- Exécution automatique du script principal -->
+    <lua>
+        <eventListener filename="scripts/AnimalAutoCare.lua" />
+    </lua>
+
+    <!-- Inclus les fichiers sources -->
+    <extraSourceFiles>
+        <sourceFile filename="scripts/AnimalAutoCare.lua"/>
+        <sourceFile filename="scripts/AnimalAutoCareUI.lua"/>
+    </extraSourceFiles>
+
+    <!-- Liaison aux touches personnalisées -->
+    <inputBindings filename="inputBinding.xml"/>
+</modDesc>
